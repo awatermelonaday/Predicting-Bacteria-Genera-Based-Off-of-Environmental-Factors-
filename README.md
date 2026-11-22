@@ -1,1 +1,3 @@
 # Predicting-Bacteria-Genera-Based-Off-of-Environmental-Factors-
+## Project Description
+This project will result in an app that will allow people to enter in sampled environmental factors to calculate what possible generas there could be in the sample. The purpose of this project is to simplify the prediction process of these bacteria taxas. Tools and websites used include Google Colab for data cleansing and the machine learning program, and Thunkable for creating an app. We are using a public data set from Dryad called “Saw Kill river (NY, USA) metagenomics and environmental variables” for building a prototype program. 
