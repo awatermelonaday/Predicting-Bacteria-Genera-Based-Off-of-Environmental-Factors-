@@ -21,3 +21,23 @@ This project will result in an app that will allow people to enter in sampled en
 - update the combined dataset by renaming all the columns into just the names of the genera instead of the full taxonomical classification for the sake of simplicity
 - split environmental predictors into (X) and bacterial genera abundance data into (Y)
 - Begin training Random Forest model 
+
+## Data Refinement + Starting Random Forest Prototype 11/24/26 (awatermelonaday)
+- Worked on a new notebook that is just dedicated to making this first prototype *uploaded to this repository as well*
+- only started with the basics like importing Pandas, NumPy, and sklearn
+- More importantly though for the original clean data program and the combined dataset, I renamed all the columns to actually make since and be readable to be only the genus name
+- Yet then, now that it’s neater, I realized that some columns were actually just the same genus again so I just combined those said columns together (which lowered the today columns which is sad because that’s less data than I thought we had to work with)
+- Then what happened was that I realized some of the samples were from water and some were from soil/outflow but I think for this prototype I only want it to be from the actual freshwater river which brought the whole thing down to only 37 rows
+- So, TLDR, our sample size is going to be extremely small but I guess that’s ok.. (maybe?) since this is just a first try prototype, I can figure out how to get a bigger dataset later after I have made since of the program, right now I think it will do
+- Now back to the random forest model, I started splitting the columns into X and Y variables, like I mentioned earlier the X variables would be the environmental factors with the Y variables being the taxa abundance
+- Finally, I checked for missing values again, last time I only filtered out all the columns with large amounts of missing variables so there was still some columns left with missing variables
+- I figured out how to solve this though, and I learned something new today, median imputation is when you can use the medican across the column to help repair a missing value. I don’t think this will change results too much because I only had 3 columns with missing values and they each were only missing one value. (But I don’t know, hoping I did the right thing.)
+### Next Steps
+- fully train the Random Forest model and tweak it until I understand what changing the hyperparameters actually does
+- Use it to generate some bacterial abundance predictions (and change parameters to alter the accuracy)
+### Overall Challenge
+- my biggest challenge today was trying to fix the data cleaning program to make sure the columns and the combined dataset overall was fully prepped and ready to go to start the prototype.
+- Now that I am done with this data prepping step I am glad I went through with it as now I have to find a bigger dataset and I will have more experience with it now so it should be more efficient the second time around for the actual model (as again this is still just a prototype)
+
+
+
