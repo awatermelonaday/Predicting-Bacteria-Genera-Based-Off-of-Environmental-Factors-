@@ -39,5 +39,12 @@ This project will result in an app that will allow people to enter in sampled en
 - my biggest challenge today was trying to fix the data cleaning program to make sure the columns and the combined dataset overall was fully prepped and ready to go to start the prototype.
 - Now that I am done with this data prepping step I am glad I went through with it as now I have to find a bigger dataset and I will have more experience with it now so it should be more efficient the second time around for the actual model (as again this is still just a prototype)
 
+## Dataset Searching 11/26/26
+- Happy Thanksgiving!
+- I spent some time today looking for a bigger dataset that consists of only water samples and that of a large amount of samples to train a second prototype/model with
+- Didn’t end up finding one that I could actually download (I revisited an old one that would have been great data but my computer kept freezing every time I tried downloading it so I won’t fight it for now and move onto something else that I can actually open)
+- The hunt will continue tomorrow, for now that’s all
+### Next Steps
+- find a downloadable dataset, only water samples, atleast 150+ for a second prototype (hopefully 500+ or 1000+ for the final model), clean that data, and make the second prototype 
 
 
